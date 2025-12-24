@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+    <style>
+    img {
+        display:block;
+        margin:0 auto;
+        border-radius: 400px;
+    }
+    body{
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: rgb(109, 116, 103);
+        position:absolute;
+    }
+    nav:hover{
+      
+      animation: alternate;
+      transition:3s;
+      color:blanchedalmond;
+      border: 20px;
+
+    }
+    h1{
+      text-align: left;
+    }
+    h3:hover {
+      margin: 200px;
+      padding: 20px;
+      animation: alternate-reverse;
+      transition: 2s;
+    }
+    
+    </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 style="color: red; padding: 20px;">KURAKULA SRINIVASA RAO</h1>
+      <nav>
+        <a href="#about">About Me</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#skills">Skills</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#Projects">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#contact">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div>
+      <h2>Trainee</h2>
+      <p>
+        </p>
+    </div>
+    <div>
+      <img src="D:\Kurakula Srinivasa Rao-portfolio\image1.jpg" alt="Profile Photo" width="200" height="200">
+    </div>
+  </section>
+
+  <section id="about">
+    <h3 style="background-color: rgb(65, 126, 139); padding-left: 20px;">About Me</h3>
+    <div class="card">
+    <p>B.Tech Graduate In Information Technology | Aspiring Software Developer |
+      I’m Kurakula Srinivasa Rao, a passionate Full Stack Developer with a strong foundation in Core Java, Web Development (HTML, CSS, JavaScript, Bootstrap), and Database Management (SQL, PL/SQL).
+I enjoy building responsive, user-friendly applications and integrating modern technologies to solve real-world problems. My project on Criminal Identification using Machine Learning and Face Recognition highlights my ability to combine innovation with practical impact.
+With internships in Data Science, Machine Learning, AI, and Cybersecurity, I bring hands-on experience, adaptability, and a growth mindset. I’m eager to collaborate on challenging projects that push boundaries and create meaningful digital solutions.
+    </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3 style="background-color: rgb(65, 126, 139);">Skills</h3>
+    <ol style="text-align: left;">
+      <li>java</li>
+      <li>HTMl</li>
+      <li>css</li>
+      <li>javascript</li>
+      <li>sql</li>
+    </ol>
+   
+  </section>
+
+  <section id="Projects">
+    <h3 style="background-color: rgb(65, 126, 139); padding-left: 10px;">Projects</h3>
+    <div class="card" style="text-align: left;">
+      <h2 style="color: brown;">Criminal Identification using Machine Learning & Face Recognition</h2>
+      <p>Developed an advanced system for criminal identification with 95% accuracy using ML algorithms (SVM, CNNs) and facial recognition techniques.</p>
+      <ul>
+        <li>Designed and implemented a criminal identification system to assist metropolitan police departments in enhancing suspect recognition accuracy.</li>
+        <li>Applied machine learning algorithms such as Support Vector Machines (SVM) and Convolutional Neural Networks (CNNs) for classification and recognition tasks.</li>
+        <li>Achieved 95% accuracy in identifying suspects from an extensive criminal database.</li>
+        <li>Improved identification efficiency by 30%, significantly reducing investigation time.</li>
+        <li>Developed a robust face recognition pipeline capable of analyzing high-resolution images.</li>
+        <li>Performed image preprocessing (normalization, augmentation, noise reduction) to enhance model accuracy.</li>
+        <li>Utilized pattern recognition and feature extraction techniques for improved matching.</li>
+        <li>Conducted extensive testing to reduce false positives and false negatives.</li>
+        <li>Integrated the solution to support large-scale database searches for real-time applications.</li>
+        <li>Delivered a scalable and efficient system showcasing practical application of AI in law enforcement.</li>
+
+      </ul>
+    </div>
+  </section>
+  <section id="contact">
+    <form>
+    <h3 style="background-color: rgb(65, 126, 139);">Contact</h3>
+    <div class="card">
+      <label>Enter Your Name</label><br>  
+      <input type="text" placeholder="Name"><br>
+      <label>Enter Your Email</label><br>  
+      <input type="text" placeholder="Email"><br>
+      <label>Enter Message</label><br>  
+      <textarea>message</textarea><br>
+      <button>submit</button>
+      </div>
+      </form>
+  </section>
+  <footer>
+    <copyright>copyright@2025 srinu</copyright>
+  </footer>
+</body>
+</html>
