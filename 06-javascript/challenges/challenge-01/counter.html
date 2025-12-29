@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Interactive Counter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #466b90;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .counter-box {
+      background: #a37239;
+      padding: 25px;
+      width: 300px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .count {
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .buttons button {
+      padding: 10px 15px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .steps {
+      margin-top: 15px;
+    }
+
+    .steps button {
+      padding: 6px 12px;
+      margin: 3px;
+      cursor: pointer;
+    }
+
+    .active-step {
+      background: #007bff;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="counter-box">
+    <div id="count" class="count">0</div>
+
+    <div class="buttons">
+      <button id="decrement">-</button>
+      <button id="reset">Reset</button>
+      <button id="increment">+</button>
+    </div>
+
+    <div class="steps">
+      <p>Step:</p>
+      <button class="step-btn active-step" data-step="1">1</button>
+      <button class="step-btn" data-step="5">5</button>
+      <button class="step-btn" data-step="10">10</button>
+    </div>
+  </div>
+
+  <script src="counter.js"></script>
+</body>
+</html>
