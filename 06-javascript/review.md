@@ -1,7 +1,7 @@
 # Review: 06-javascript
 
 **Exercise:** Exercise
-**Review Date:** 2025-12-31 10:59
+**Review Date:** 2026-01-05 15:10
 
 ---
 
@@ -174,7 +174,7 @@ Unable to check - no exercise file
 
 ## Challenge
 
-**Status:** ✅ Submitted (19 files)
+**Status:** ✅ Submitted (9 files)
 
 ### Challenge Relevance Check
 
